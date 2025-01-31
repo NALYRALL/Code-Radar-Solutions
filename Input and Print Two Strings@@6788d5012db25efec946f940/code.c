@@ -1,11 +1,17 @@
 #include<stdio.h>
+#include<string.h>
+
 int main (){
-    char a[];
-    scanf("%s",&a);
-    char *split = strsplit(a," ");
-    while (token != null) {
-        printf("%s\n",split);
-        split = strsplit(null , " ");
+    char a[100];
+    scanf("%99[^n]",a);
+    char *split =strtok(a," ");
+    while (split != NULL ){
+        printf("%s ", split );
+        split = strtok(NULL ," ");
+        if (split != NULL){
+            printf("and");
+
+        }
     }
     return 0;
 }
