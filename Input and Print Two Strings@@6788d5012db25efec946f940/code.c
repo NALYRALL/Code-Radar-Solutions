@@ -9,7 +9,7 @@ int main (){
         printf("%s ", split );
         split = strtok(NULL ," ");
         if (split != NULL){
-            printf("and");
+            printf("and ");
 
         }
     }
