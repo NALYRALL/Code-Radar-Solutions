@@ -6,7 +6,7 @@ int main (){
     scanf("%99[^n]",a);
     char *split =strtok(a," ");
     while (split != NULL ){
-        printf("%s ", split );
+        printf("You entered: %s ", split );
         split = strtok(NULL ," ");
         if (split != NULL){
             printf("and ");
