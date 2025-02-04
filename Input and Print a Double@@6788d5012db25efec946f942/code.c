@@ -1,5 +1,5 @@
 #include <stdio.h>
-int precision()
+int main
 {   float a;
     scanf("%f",&a);
 
