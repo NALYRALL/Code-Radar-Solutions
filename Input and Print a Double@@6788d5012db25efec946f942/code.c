@@ -1,5 +1,6 @@
 #include <stdio.h>
-int precision(int a)
+int a;
+int precision()
 {
     scanf("%f",&a);
     print("You entered: %.4f",a);
