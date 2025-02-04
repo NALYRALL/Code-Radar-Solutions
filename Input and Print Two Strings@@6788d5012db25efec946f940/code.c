@@ -2,6 +2,6 @@
 int main()
 {
     char a[20],b[20];
-    scanf("%s %s",&a,&b)
-    printf("%s and %s",a,b)
+    scanf("%s %s",&a,&b);
+    printf("%s and %s",a,b);
 }
