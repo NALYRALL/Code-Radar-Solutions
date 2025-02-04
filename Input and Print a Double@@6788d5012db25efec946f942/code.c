@@ -2,5 +2,5 @@
 int precision(int a)
 {
     scanf("%f",&a);
-    print("%4f",a);
+    print("You entered: %.4f",a);
 }
