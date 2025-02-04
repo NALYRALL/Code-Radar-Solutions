@@ -2,9 +2,9 @@
 
 int main()
 {
-    int a,b ;
+    int a;
     scanf("%d",&a);
-    b = 2 * 3.14 * a ;
+    int b = (2 * 3.14) * a**2 ;
     printf("Area: %.2f",b)
 
 }
