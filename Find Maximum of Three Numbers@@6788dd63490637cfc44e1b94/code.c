@@ -7,5 +7,9 @@ int main (void)
     {
         printf("%i"a);
     }
+    else 
+    {
+        printf("on")
+    }
     return 0;
 }
