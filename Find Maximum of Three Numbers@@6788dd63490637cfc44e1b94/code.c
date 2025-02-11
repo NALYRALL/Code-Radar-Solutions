@@ -7,9 +7,17 @@ int main (void)
     {
         printf("%i",a);
     }
+    else if (b>a && b>c)
+    {
+        printf("%i",b);
+    }
+    else if (c>b && c>a)
+    {
+        printf("%i",c);
+    }
     else 
     {
-        printf("on");
+        printf("%i",a);
     }
     return 0;
 }
