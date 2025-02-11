@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-char* replace(int arr[])
+char replace(int arr[])
 {
     for (int i= 0; arr[i]!= '\0'; i++)
     {
