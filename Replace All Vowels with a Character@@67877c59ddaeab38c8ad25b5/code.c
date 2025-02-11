@@ -7,7 +7,7 @@ char* replace(int arr[])
     {
         if (strchr("AEIOUaeiou", arr[i])!= NULL)
         {
-            arr[i]= '*'
+            arr[i]= '*';
         }
     }
     return arr;
