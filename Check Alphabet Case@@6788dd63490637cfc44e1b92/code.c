@@ -4,13 +4,13 @@ int main(void)
 {
     char ant;
     scanf("%c",&ant);
-    if (ant<='z' || ant>='a')
-    {
-        printf("Lowercase");
-    }
-    else if (ant<='Z' || ant>='A')
+    if (ant>='A' || ant<='Z')
     {
         printf("Uppercase");
+    }
+    else if (ant>='a' || ant<='z')
+    {
+        printf("Lowercase");
     }
     else 
     {
