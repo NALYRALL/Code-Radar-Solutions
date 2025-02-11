@@ -9,7 +9,7 @@ int main (void)
     }
     else 
     {
-        printf("on")
+        printf("on");
     }
     return 0;
 }
