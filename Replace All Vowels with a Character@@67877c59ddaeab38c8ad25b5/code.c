@@ -10,7 +10,7 @@ char* replace(int arr[])
             arr[i]= '*';
         }
     }
-    return arr;
+    printf("%s", arr);
 }
 
 int main(void)
@@ -18,7 +18,7 @@ int main(void)
     char string[50];
     scanf("%49s", string);
 
-    printf("%s", replace(string));
+    replace(string);
 
     return 0;
 }
