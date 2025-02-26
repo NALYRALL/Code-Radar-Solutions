@@ -10,6 +10,7 @@ int main(void)
         printf("Loss");
     }
     else 
-    {printf("Profit")}
+    {printf("Profit");
+    }
     return 0;
 }
