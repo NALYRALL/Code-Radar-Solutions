@@ -9,6 +9,9 @@ int main(void)
     if (check>=0 && check<=9)
     {
         printf("Digit");
+    }
+    else if (check !=0)
+    {
         if (check=='a' || check== 'e' || check=='i' || check=='o'|| check=='u')
         {
             printf("Vowel");
