@@ -9,7 +9,7 @@ int main(void)
 {
     int a;
     scanf("%i",&a);
-    if (isprime(num))
+    if (isprime(a))
     {
         printf("Not Prime");
     }
@@ -17,5 +17,5 @@ int main(void)
     {
         printf("Prime");
     }
-    return 1;
+    return 0;
 }
