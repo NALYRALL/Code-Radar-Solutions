@@ -3,9 +3,9 @@
 
 int main(void)
 {
-    char check;
-    scanf("%c",&check);
-    char check = tolower(check);
+    char ch;
+    scanf("%c",&ch);
+    char check = tolower(ch);
     if (check>=0 || check<=9)
     {
         printf("Digit");
