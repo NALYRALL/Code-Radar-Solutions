@@ -18,11 +18,11 @@ int main(void)
     }
     else if (a>=60)
     {
-        printf("D")
+        printf("D");
     }
     else 
     {
-        printf("F")
+        printf("F");
     }
     return 0;
 }
