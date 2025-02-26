@@ -13,6 +13,7 @@ int main(void)
     {
         printf("Equal");
     }
+    else
     {
         printf("Second");
     }
