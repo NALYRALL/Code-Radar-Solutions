@@ -10,7 +10,7 @@ int main(void)
     {
         printf("Digit");
     // check = (int)check;
-        if (check=='a' || check== 'e' || check=='i' check=='o'|| check=='u')
+        if (check=='a' || check== 'e' || check=='i' || check=='o'|| check=='u')
         {
             printf("Vowel");
         }
