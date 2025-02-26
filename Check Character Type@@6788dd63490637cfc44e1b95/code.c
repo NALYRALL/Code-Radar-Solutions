@@ -10,8 +10,8 @@ int main(void)
     {
         printf("Digit");
     }
-    check =(int)check
-    else if (check !=0);
+    check =(int)check;
+    else if (check !=0)
     {
         if (check=='a' || check== 'e' || check=='i' || check=='o'|| check=='u')
         {
