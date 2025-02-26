@@ -9,7 +9,7 @@ int main(void)
     {
         printf("Equilateral");
     }
-    else if (a!=b || b!=c)
+    else if (a!=b && b!=c)
     {
         printf("Scalene");
     }
