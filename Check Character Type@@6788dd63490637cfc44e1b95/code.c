@@ -27,6 +27,4 @@ int main(void)
         printf("Special Character");
     }
     return 0;
-
-    // if ((65<=check <=90) && ())
 }
