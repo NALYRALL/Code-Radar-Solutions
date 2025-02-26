@@ -8,7 +8,7 @@ int main(void)
     char check = tolower(ch);
     if (check>0 && check<9)
     {
-        // check =(int)check;
+        check =(int)check;
         printf("Digit");
     }
     else if (check !=0)
@@ -17,7 +17,7 @@ int main(void)
         {
             printf("Vowel");
         }
-        if else ((check >64 && check<91) || (check>96 && check<123))
+        else if ((check >64 && check<91) || (check>96 && check<123))
         {
             printf("Consonant");
         }
