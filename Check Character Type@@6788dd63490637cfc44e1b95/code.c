@@ -10,13 +10,14 @@ int main(void)
     {
         printf("Digit");
     }
+    check =(int)check
     else if (check !=0)
     {
         if (check=='a' || check== 'e' || check=='i' || check=='o'|| check=='u')
         {
             printf("Vowel");
         }
-        else 
+        if else ((check >64 && check<91) || (check>96 && check<123))
         {
             printf("Consonant");
         }
