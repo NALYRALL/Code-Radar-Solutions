@@ -10,7 +10,7 @@ int main(void)
     {
         printf("Digit");
     }
-    else if (check !=0)
+    else if (isalpha(ch))
     {
         if (check=='a' || check== 'e' || check=='i' || check=='o'|| check=='u')
         {
