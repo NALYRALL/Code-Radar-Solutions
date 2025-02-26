@@ -17,5 +17,5 @@ int main(void)
     {
         printf("Isosceles");
     }
-    return O;
+    return 0;
 }
