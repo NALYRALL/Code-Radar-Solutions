@@ -11,7 +11,7 @@ int main(void)
     }
     else if (a==b)
     {
-        printf("Equal")
+        printf("Equal");
     }
     {
         printf("Second");
