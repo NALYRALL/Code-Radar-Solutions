@@ -9,7 +9,6 @@ int main(void)
     if (isdigit(ch))
     {
         printf("Digit");
-        check =(int)check;
     }
     else if (check !=0)
     {
@@ -17,7 +16,7 @@ int main(void)
         {
             printf("Vowel");
         }
-        else if ((check >64 && check<91) || (check>96 && check<123))
+        else if (isalpha(ch))
         {
             printf("Consonant");
         }
