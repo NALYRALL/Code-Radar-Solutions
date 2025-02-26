@@ -11,7 +11,7 @@ int main(void)
     }
     else 
     {
-        printf("Npt Eligible");
+        printf("Not Eligible");
     }
     return 0;
 }
