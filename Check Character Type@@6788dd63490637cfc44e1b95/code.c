@@ -8,7 +8,7 @@ int main(void)
     char check = tolower(ch);
     if (check>0 && check<9)
     {
-        check =(int)check;
+        // check =(int)check;
         printf("Digit");
     }
     else if (check !=0)
