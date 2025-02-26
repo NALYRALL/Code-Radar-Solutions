@@ -7,11 +7,11 @@ int main(void)
     scanf("%i",&a);
     if (a>=60)
     {
-        printf("Yes");
+        printf("Eligible");
     }
     else 
     {
-        printf("No");
+        printf("Npt Eligible");
     }
     return 0;
 }
