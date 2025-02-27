@@ -7,7 +7,7 @@ int main(void)
     switch (a)
     {
         case 'A':
-        printf("Exellent");
+        printf("Excellent");
         break;
         case 'B':
         printf("Good");
@@ -18,11 +18,11 @@ int main(void)
         case 'D':
         printf("Below Average");
         break;
-        case 'E':
+        case 'F':
         printf("Fail");
         break;
         default:
-            printf("Invalid\n");
+            printf("Invalid grade\n");
     }
     return 0;
 }
