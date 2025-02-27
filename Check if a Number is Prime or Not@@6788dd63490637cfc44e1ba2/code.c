@@ -11,6 +11,6 @@ int isPrime(int n) {
 int main() {
     int num;
     scanf("%d", &num);
-    printf(isPrime(num) ? "prime\n" : "not prime\n");
+    printf(isPrime(num) ? "Prime\n" : "Not Prime\n");
     return 0;
 }
