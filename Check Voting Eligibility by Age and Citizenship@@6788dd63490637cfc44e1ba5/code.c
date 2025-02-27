@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int main(void)
+int main()
 {
     int a,b;
     if (a>=18 && b==1)
