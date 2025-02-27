@@ -3,7 +3,7 @@
 int main(void)
 {
     int a,b;
-    if (b^2==a)
+    if (b*b==a)
     {
         printf("Yes");
     }
