@@ -8,7 +8,7 @@ int main(void)
     {
         for (int j=input;j>0;j--)
         {
-            printf("*");
+            printf("* ");
         }
     }
     return 0;
