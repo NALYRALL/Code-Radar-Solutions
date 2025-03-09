@@ -3,7 +3,7 @@ int main(void)
 {
     int a;
     scanf("%d",&a);
-    for (int i =a;i<=a;i--)
+    for (int i =a;i>=a;i--)
     {
         int alpha=65;
         for (int j=0;j<i;j++)
