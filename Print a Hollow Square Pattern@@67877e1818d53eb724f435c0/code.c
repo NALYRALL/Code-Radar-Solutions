@@ -13,7 +13,7 @@ int main(void)
             }
             else
             {
-                printf(" ")
+                printf(" ");
             }
         }
         printf("\n");
