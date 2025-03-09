@@ -8,7 +8,7 @@ int main(void)
         int alpha=65;
         for (int j=0;j<i;j++)
         {
-            printf("%d ",j);
+            printf("%c ",alpha);
             alpha+=1;
         }
         printf("\n");
