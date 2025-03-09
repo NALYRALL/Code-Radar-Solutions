@@ -7,8 +7,14 @@ int main(void)
     {
         for (int j =1;j<=a;j++)
         {
-            if(( i==1 || i==a) || (j==1 || j==a) )
-            printf("* ");
+            if( i==1 || i==a || j==1 || j==a )
+            {
+                printf("*");
+            }
+            else
+            {
+                printf(" ")
+            }
         }
         printf("\n");
     }
