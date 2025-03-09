@@ -5,9 +5,11 @@ int main(void)
     scanf("%d",&a);
     for (int i =1;i<=a;i++)
     {
+        int alpha=65;
         for (int j=0;j<i;j++)
         {
             printf("%d ",j);
+            alpha+=1;
         }
         printf("\n");
     }
