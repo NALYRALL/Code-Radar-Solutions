@@ -5,7 +5,7 @@ int main(void)
     scanf("%d",&a);
     for (int i=1;i<=a;i++)
     {
-        int chars=64;
+        int chars=65;
         for (int j=0;j<i;j++)
         {
             printf("%c",chars);
