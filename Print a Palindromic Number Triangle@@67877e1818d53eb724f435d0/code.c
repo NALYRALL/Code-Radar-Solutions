@@ -15,10 +15,10 @@ int main(void)
             printf("%i",num);
             num++;
         }
-        for (int l=1;l<i;l++)
+        for (int l=i-1;l<i;l--)
         {
             num -=1;
-            printf("%i",num);
+            printf("%i",l);
         }
         printf("\n");
     }
