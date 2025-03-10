@@ -8,7 +8,7 @@ int main(void)
         int b=(i%2==0 ) ? 0 :1;
         for (int j=0;j<i;j++)
         {
-            printf("%i",b);
+            printf("%i ",b);
             b=1-b;
         }
         printf("\n");
