@@ -11,12 +11,12 @@ int main(void)
             if (b==0)
             {
                 b=1;
-                printf("%i",b);
+                printf("%i ",b);
             }
             else
             {
                 b=0;
-                printf("%i",b);
+                printf("%i ",b);
             }
 
         }
