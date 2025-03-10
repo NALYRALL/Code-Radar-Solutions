@@ -2,13 +2,13 @@
 int main(void)
 {
     int input;
+    int b=0;
     scanf("%d",&input);
     for (int i =1;i<=input;i++)
     {
-        
+        int b=0;
         for (int j=0;j<i;j++)
         {
-            int b=0;
             if (b==0)
             {
                 b=1;
