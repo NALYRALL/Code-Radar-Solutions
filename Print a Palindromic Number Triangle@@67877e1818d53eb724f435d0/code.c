@@ -15,6 +15,11 @@ int main(void)
             printf("%i",num);
             num++;
         }
+        for (int l=1;l<i;l++)
+        {
+            num--;
+            printf("%i",num);
+        }
         printf("\n");
     }
     return 0;
