@@ -13,7 +13,7 @@ int main(void)
                 b=1;
                 printf("%i ",b);
             }
-            else
+            else if (b==1)
             {
                 b=0;
                 printf("%i ",b);
