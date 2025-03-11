@@ -8,7 +8,7 @@ int main(void)
     {
         scanf("%d",arr[i]);
     }
-    bubblesort(arr,n);
+    bubbleSort(arr,n);
     printf(arr,n);
     return 0;
 }
