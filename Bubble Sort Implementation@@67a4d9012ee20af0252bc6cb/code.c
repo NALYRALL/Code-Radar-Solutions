@@ -23,7 +23,7 @@ int main(void)
     bubbleSort(arr,n);
     for (int j=0;j<n;j++)
     {
-        printf("%d",arr[j]);
+        printf("%d ",arr[j]);
     }
     return 0;
 }
