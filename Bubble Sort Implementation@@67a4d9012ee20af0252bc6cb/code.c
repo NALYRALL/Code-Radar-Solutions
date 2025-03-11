@@ -9,6 +9,9 @@ int main(void)
         scanf("%d",arr[i]);
     }
     bubbleSort(arr,n);
-    printf(arr,n);
+    for (int j=0;j<n;j++)
+    {
+        printf("%d",arr[i]);
+    }
     return 0;
 }
