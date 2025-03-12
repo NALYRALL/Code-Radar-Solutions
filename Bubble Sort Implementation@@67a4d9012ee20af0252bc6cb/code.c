@@ -11,7 +11,7 @@ void bubbleSort(int arr[], int size) {
         }
     }
 }
-int main(void)
+int main()
 {
     int n;
     scanf("%d",&n);
