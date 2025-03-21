@@ -37,7 +37,34 @@ void smaldiff(int arr[],int length)
         }
     }
     printf("%d %d",arr[smallest],arr[smallest+1]);
-
-
-
 }
+int main()
+{
+    int a;
+    scanf("%d",&a);
+    int arr[a];
+    for (int i =0;i<a;i++)
+    {
+        scanf("%d",&arr[i]);
+    }
+    smaldiff(arr,a);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
