@@ -16,32 +16,39 @@ int sorting(int arr[], int length)
     }
 }
 void smaldiff(int arr[],int length)
-{
-    sorting(arr,length);
-    int subarr[length-1];
-    for (int i=0;i<length-1;i++)
+{   
+    if (length== 1)
     {
-        int dif=0;
-        dif = arr[i+1]-arr[i];
-        subarr[i]=dif;
+        printf("-1");
     }
-    int temp[length-1];
-    for (int i= 0; i< length; i++)
+    else
     {
-        temp[i]= subarr[i];
-    }
-    sorting(temp,length-1);
-    int var= temp[0];
-    int smallest;
-    for (int i=0;i<length-1;i++)
-    {
-        if (var==subarr[i])
+        sorting(arr,length);
+        int subarr[length-1];
+        for (int i=0;i<length-1;i++)
         {
-            smallest=i;
-            break;
+            int dif=0;
+            dif = arr[i+1]-arr[i];
+            subarr[i]=dif;
         }
+        int temp[length-1];
+        for (int i= 0; i< length; i++)
+        {
+            temp[i]= subarr[i];
+        }
+        sorting(temp,length-1);
+        int var= temp[0];
+        int smallest;
+        for (int i=0;i<length-1;i++)
+        {
+            if (var==subarr[i])
+            {
+                smallest=i;
+                break;
+            }
+        }
+        printf("%d %d",arr[smallest],arr[smallest+1]);
     }
-    printf("%d %d",arr[smallest],arr[smallest+1]);
 }
 int main()
 {
