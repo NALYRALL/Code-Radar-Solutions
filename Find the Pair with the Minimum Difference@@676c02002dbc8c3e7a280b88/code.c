@@ -38,6 +38,7 @@ void smaldiff(int arr[],int length)
         if (var==subarr[i])
         {
             smallest=i;
+            break;
         }
     }
     printf("%d %d",arr[smallest],arr[smallest+1]);
