@@ -29,7 +29,7 @@ void smaldiff(int arr[],int length)
     {
         temp[i]= subarr[i];
     }
-    sorting(temp,length);
+    sorting(temp,length-1);
     int var= temp[0];
     int smallest;
     for (int i=0;i<length-1;i++)
