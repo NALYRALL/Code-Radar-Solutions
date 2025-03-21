@@ -19,7 +19,7 @@ void smaldiff(int arr[],int length)
     {
         int dif=0;
         dif = arr[i+1]-arr[i];
-        subarr[i]=diff;
+        subarr[i]=dif;
     }
     int temp[length-1];
     for (int i= 0; i< length; i++)
@@ -33,7 +33,7 @@ void smaldiff(int arr[],int length)
     {
         if (var==subarr[i])
         {
-            smallest=i
+            smallest=i;
         }
     }
     printf("%d %d",arr[smallest],arr[smallest+1]);
