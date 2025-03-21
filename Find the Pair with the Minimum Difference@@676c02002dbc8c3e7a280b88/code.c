@@ -5,9 +5,12 @@ void sorting(int arr[],int length)
     {
         for (int j=i+1;j<length;j++)
         {
-            int temp=arr[i];
-            arr[i]=arr[j];
-            arr[j]=temp;
+            if (arr[i]>arr[j])
+            {
+                int temp=arr[i];
+                arr[i]=arr[j];
+                arr[j]=temp;
+            }
         }
     }
 }
